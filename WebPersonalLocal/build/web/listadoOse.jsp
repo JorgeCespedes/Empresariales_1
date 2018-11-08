@@ -16,7 +16,7 @@
     <body>
         <%@include file="jspf/nav.jspf" %>
         
-        <p>Bienvenido, por fin lo lograste  </p>
+        <p>no    </p>
         
     </body>
     <%@include file="jspf/js.jspf" %>

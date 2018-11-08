@@ -1,10 +1,10 @@
-package org.apache.jsp;
+package org.apache.jsp.mantenimientoOSE;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class sistema_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -13,10 +13,10 @@ public final class sistema_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList<String>(4);
-    _jspx_dependants.add("/jspf/estilos.jspf");
-    _jspx_dependants.add("/jspf/header.jspf");
-    _jspx_dependants.add("/jspf/nav.jspf");
-    _jspx_dependants.add("/jspf/js.jspf");
+    _jspx_dependants.add("/mantenimientoOSE/../jspf/estilos.jspf");
+    _jspx_dependants.add("/mantenimientoOSE/../jspf/header.jspf");
+    _jspx_dependants.add("/mantenimientoOSE/../jspf/nav.jspf");
+    _jspx_dependants.add("/mantenimientoOSE/../jspf/js.jspf");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -62,7 +62,7 @@ public final class sistema_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\n");
       out.write("\n");
-      out.write("<link href=\"css/estilos.css\" rel=\"stylesheet\">\n");
+      out.write("<link href=\"recursos/css/estilos.css\" rel=\"stylesheet\">\n");
       out.write("\n");
       out.write("<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.4.2/css/all.css\" integrity=\"sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns\" crossorigin=\"anonymous\">\n");
       out.write("\n");
@@ -116,7 +116,44 @@ public final class sistema_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("        \n");
-      out.write("        <p>Bienvenido, por fin lo lograste  </p>\n");
+      out.write("        <div class=\"row\">\n");
+      out.write("            <div class=\"col-lg-1\"></div>\n");
+      out.write("            \n");
+      out.write("            <div class=\"col-lg-10\">\n");
+      out.write("                \n");
+      out.write("                <table border=\"1\" class=\"table table-bordered table-hover\">\n");
+      out.write("                    <thead>\n");
+      out.write("                        <tr>\n");
+      out.write("                            <th></th>\n");
+      out.write("                            <th></th>\n");
+      out.write("                            <th></th>\n");
+      out.write("                            <th></th>\n");
+      out.write("                            <th></th>\n");
+      out.write("                        </tr>\n");
+      out.write("                    </thead>\n");
+      out.write("                    <tbody>\n");
+      out.write("                        <tr>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                        </tr>\n");
+      out.write("                        <tr>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                            <td></td>\n");
+      out.write("                        </tr>\n");
+      out.write("                    </tbody>\n");
+      out.write("                </table>\n");
+      out.write("\n");
+      out.write("                \n");
+      out.write("            </div>\n");
+      out.write("                                   \n");
+      out.write("            <div class=\"col-lg-1\"></div>\n");
+      out.write("        </div>\n");
       out.write("        \n");
       out.write("    </body>\n");
       out.write("    ");

@@ -15,9 +15,18 @@
     </head>
     <body>
         <%@include file="jspf/nav.jspf" %>
-        
-        <p>Bienvenido, por fin lo lograste  </p>
-        
+        <div class="container">
+            <div class="row">
+                <h3>Bienvenido</h3>
+                <p> Sistema de Gestión de Personal en el exterior<br><br>
+                    El SGPE es un aplicativo en el que usted podrá conocer el detalle del personal que 
+                    labora en los Órganos el Servicio Exterior 
+                    de la República del Perú.<br>
+                    Es por ello que esperamos sus sugerencias y opiniones para hacer de este, un lugar mejor.
+                </p>
+            </div>
+        </div>
+        <%@include file="jspf/footer.jspf" %>
     </body>
     <%@include file="jspf/js.jspf" %>
 </html>

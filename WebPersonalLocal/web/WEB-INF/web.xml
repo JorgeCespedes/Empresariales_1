@@ -8,6 +8,10 @@
         <servlet-name>controladorCambiarClave</servlet-name>
         <servlet-class>controladores.controladorCambiarClave</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>controladorOSE</servlet-name>
+        <servlet-class>controladores.controladorOSE</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>controladorLogin</servlet-name>
         <url-pattern>/controladorlogin.do</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>controladorCambiarClave</servlet-name>
         <url-pattern>/controladorcambiarclave.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>controladorOSE</servlet-name>
+        <url-pattern>/controladorose.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

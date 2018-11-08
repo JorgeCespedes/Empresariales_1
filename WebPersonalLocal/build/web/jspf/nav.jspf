@@ -1,17 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light container">
 
-
-    <a class="navbar-brand" href="#">Home </a>
+    <a class="navbar-brand" href="sistema.jsp"><i class="fas fa-building"></i> </a>
+    <!--
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-
+    -->
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
             <li class="nav-item">
-                <a class="nav-link" href="#">OSE <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="controladorose.do">OSE <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -19,10 +19,11 @@
                     Personal Contratado
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#"> Personal por Misión </a>
+                    <a class="dropdown-item" href="#"> Personal por Contrato </a>
+                    <a class="dropdown-item" href="#"> Planilla </a>
                 </div>
+            </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
